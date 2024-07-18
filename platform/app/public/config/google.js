@@ -17,7 +17,7 @@ window.config = {
       // ~ REQUIRED
       // Authorization Server URL
       authority: 'https://accounts.google.com',
-      client_id: '723928408739-k9k9r3i44j32rhu69vlnibipmmk9i57p.apps.googleusercontent.com',
+      client_id: '73204620421-fm70r5c8mqlrutdnlm9osbv52ldtiv35.apps.googleusercontent.com',
       redirect_uri: '/callback',
       response_type: 'id_token token',
       scope:
@@ -41,12 +41,18 @@ window.config = {
       configuration: {
         friendlyName: 'dcmjs DICOMWeb Server',
         name: 'GCP',
+        // wadoUriRoot:
+        //   'https://healthcare.googleapis.com/v1/projects/ohif-cloud-healthcare/locations/us-east4/datasets/ohif-qa-dataset/dicomStores/ohif-qa-2/dicomWeb',
+        // qidoRoot:
+        //   'https://healthcare.googleapis.com/v1/projects/ohif-cloud-healthcare/locations/us-east4/datasets/ohif-qa-dataset/dicomStores/ohif-qa-2/dicomWeb',
+        // wadoRoot:
+        //   'https://healthcare.googleapis.com/v1/projects/ohif-cloud-healthcare/locations/us-east4/datasets/ohif-qa-dataset/dicomStores/ohif-qa-2/dicomWeb',
         wadoUriRoot:
-          'https://healthcare.googleapis.com/v1/projects/ohif-cloud-healthcare/locations/us-east4/datasets/ohif-qa-dataset/dicomStores/ohif-qa-2/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/apt-vine-428509-d2/locations/europe-west2/datasets/dicom-dataset/dicomStores/dicom-datastore/dicomWeb',
         qidoRoot:
-          'https://healthcare.googleapis.com/v1/projects/ohif-cloud-healthcare/locations/us-east4/datasets/ohif-qa-dataset/dicomStores/ohif-qa-2/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/apt-vine-428509-d2/locations/europe-west2/datasets/dicom-dataset/dicomStores/dicom-datastore/dicomWeb',
         wadoRoot:
-          'https://healthcare.googleapis.com/v1/projects/ohif-cloud-healthcare/locations/us-east4/datasets/ohif-qa-dataset/dicomStores/ohif-qa-2/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/apt-vine-428509-d2/locations/europe-west2/datasets/dicom-dataset/dicomStores/dicom-datastore/dicomWeb',
         qidoSupportsIncludeField: true,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
